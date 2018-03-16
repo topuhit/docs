@@ -8,5 +8,5 @@
 * No statically built html files
 * Multiple themes
 
-[GitHub](https://github.com/QingWei-Li/docsify/)
+[GitHub](https://github.com/topuhit/docs/)
 [Get Started](#docsify)
