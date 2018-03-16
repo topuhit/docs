@@ -1,7 +1,7 @@
 # docs
 Code documents
 
-![](_media/Lorenzo_Garcia_01.jpg)
+
 # Javascript Demo
 
 Code documents
@@ -15,9 +15,3 @@ alert(s);
 
 
 
-
-
-
-
-# Axios
-Helll
