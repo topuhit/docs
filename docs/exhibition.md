@@ -487,7 +487,7 @@ function getFormattedDate() {
 
 ## View Home.ejs
 
- ```html
+```html
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -653,3 +653,55 @@ First Node JS and MongoDB Web Development. 369 artworks. Hosted on VPS Server. S
 </html>
 
 ```
+
+
+
+## View Pagination.ejs
+
+```html
+ <div class="w3-center">
+<div class="pagination">
+  <a href="/" <%if (active =='/') {%>  class="active"  <%}%>>1</a>
+  <a href="/page/2" <%if (active =='/page/2') {%>  class="active"  <%}%>>2</a>
+  <a href="/page/3" <%if (active =='/page/3') {%>  class="active"  <%}%>>3</a>
+  <a href="/page/4" <%if (active =='/page/4') {%>  class="active"  <%}%>>4</a>
+
+</div>
+</div>
+
+
+```
+
+
+
+## View nav.ejs
+
+```html
+<div class="app-navigation">
+        <div class="navigation-holder">
+            <a href="/" class="navigation-link"><span><img src="http://uodaartexhibition2015.ml/anual-art-exhibition-logo-horizontal.svg" class="toplogo" alt="Exhibition Logo"></span></a>
+            <a href="/" class="navigation-link"><span><i class="fa fa-home" aria-hidden="true"></i> Home</span></a>
+            <a href="/page/2" class="navigation-link"><span> 2</span></a>
+            <a href="/page/3" class="navigation-link"><span> 3</span></a>
+            <a href="/page/4" class="navigation-link"><span> 4</span></a>
+            <a href="/most-viewed" class="navigation-link "><span><i class="fa fa-bar-chart" aria-hidden="true"></i> Most Viewed</span></a>
+            <a href="/about" class="navigation-link "><span><i class="fa fa-info-circle" aria-hidden="true"></i> About</span></a>
+        </div>
+    </div>
+
+<div class="app-navigation-mobile">
+        <div class="navigation-holder">
+            <a href="/" class="navigation-link"><span><img src="http://uodaartexhibition2015.ml/anual-art-exhibition-logo-horizontal.svg" class="toplogo" alt="Exhibition Logo"></span></a>
+            <a href="/" class="navigation-link"><span><i class="fa fa-home" aria-hidden="true"></i></span></a>
+            <a href="/page/2" class="navigation-link"><span> 2</span></a>
+            <a href="/page/3" class="navigation-link"><span> 3</span></a>
+            <a href="/page/4" class="navigation-link"><span> 4</span></a>
+            <a href="/most-viewed" class="navigation-link "><span><i class="fa fa-bar-chart" aria-hidden="true"></i></span></a>
+            <a href="/about" class="navigation-link "><span><i class="fa fa-info-circle" aria-hidden="true"></i></span></a>
+        </div>
+    </div>
+
+```
+
+
+
