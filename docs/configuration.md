@@ -5,7 +5,7 @@ You can configure the `window.$docsify`.
 ```html
 <script>
   window.$docsify = {
-    repo: 'QingWei-Li/docsify',
+    repo: 'topuhit/docs',
     maxLevel: 3,
     coverpage: true
   }
@@ -36,7 +36,7 @@ Configure the repository url or a string of `username/repo` can add the [GitHub 
 window.$docsify = {
   repo: 'QingWei-Li/docsify',
   // or
-  repo: 'https://github.com/QingWei-Li/docsify/'
+  repo: 'https://github.com/topuhit/docs/'
 };
 ```
 
@@ -127,7 +127,7 @@ window.$docsify = {
 
   // Or use the readme in your repo
   homepage:
-    'https://raw.githubusercontent.com/QingWei-Li/docsify/master/README.md'
+    'https://raw.githubusercontent.com/topuhit/docs/master/README.md'
 };
 ```
 
@@ -256,7 +256,7 @@ window.$docsify = {
     '/foo/(+*)': '/bar/$1', // supports regexp
     '/zh-cn/changelog': '/changelog',
     '/changelog':
-      'https://raw.githubusercontent.com/QingWei-Li/docsify/master/CHANGELOG',
+      'https://raw.githubusercontent.com/topuhit/docs/master/CHANGELOG',
     '/.*/_sidebar.md': '/_sidebar.md' // See #301
   }
 };
