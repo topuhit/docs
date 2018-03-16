@@ -3,7 +3,7 @@
   * [NodeJS](node.md)
   * [Exhibition](exhibition.md)
 
-* CSSs
+* CSS
 
   * [Animation](animation.md)
 
