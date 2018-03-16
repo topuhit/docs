@@ -1,12 +1,9 @@
 ![logo](_media/icon.svg)
 
-# docsify <small>4.6.9</small>
+# tariquldocs <small>beta</small>
 
-> A magical documentation site generator.
+> Personal coding reference documentation.
 
-* Simple and lightweight (~19kB gzipped)
-* No statically built html files
-* Multiple themes
+* easy to access for those who remember coding
 
 [GitHub](https://github.com/topuhit/docs/)
-[Get Started](#docsify)
