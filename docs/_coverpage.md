@@ -4,6 +4,6 @@
 
 > Personal coding reference documentation.
 
-* easy to access for those who remember coding
+* easy to access for those who can't remember coding.
 
 [GitHub](https://github.com/topuhit/docs/)
