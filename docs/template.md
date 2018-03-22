@@ -1,6 +1,20 @@
 # Template
 Some Useful templates.
 
+## Rest api Template that works: 
+
+REST Template
+
+[Tutorial](https://getstream.io/blog/building-rest-api-node-js-restify-mongodb/)
+[Github](https://github.com/GetStream/node-restify-mongo-api)
+
+```json
+   {
+        "task": "Eat Jelly Beans",
+        "status": "in progress"
+    }
+```
+
 ## Babel Template
 
 Babel Template
