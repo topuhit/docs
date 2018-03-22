@@ -8,6 +8,14 @@ REST Template
 [Tutorial](https://getstream.io/blog/building-rest-api-node-js-restify-mongodb/)
 [Github](https://github.com/GetStream/node-restify-mongo-api)
 
+* With that in place, you can now hit the endpoints that you created! For example, we can send a POST to the /todos endpoint with the following payload to create a new todo item (notice that the response will be a 201 status code):
+
+* To update the status to “complete”, simply send a PUT to the /todos/:todo_id endpoint (in our case /todos/59a0867835f56c7a9476ce92):
+
+* And finally, if you’d like to delete the object, you can hit the /todos/:todo_id endpoint with a DELETE request:
+
+
+
 ```json
    {
         "task": "Eat Jelly Beans",
