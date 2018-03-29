@@ -1,6 +1,22 @@
 # Template
 Some Useful templates.
 
+## ON view port alert
+[Js fiddle line](http://jsfiddle.net/M2RzU/24/)
+~~~
+$(document).ready(function(){
+    $('.myclass').bind('inview', function (event, visible) {
+      if (visible == true) {
+        // element is now visible in the viewport
+       $("h2").removeClass('myclass');
+          alert('found h2!')
+      } else {
+        // element has gone out of viewport
+         $("h2").addClass('myclass');
+      }
+    });
+});
+~~~
 ## Rest api Template that works: 
 
 REST Template
@@ -14,9 +30,28 @@ REST Template
 
 * And finally, if you’d like to delete the object, you can hit the /todos/:todo_id endpoint with a DELETE request:
 
+________________________________________________
+Get started quickly
+Creating a README or a .gitignore is a quick and easy way to get something into your repository.
+
+Create a README
+Create a .gitignore
+Push your local repository to Bitbucket
+Step 1: Switch to your repository's directory
+
+cd /path/to/your/repo
+Step 2: Connect your existing repository to Bitbucket
+
+git remote add origin https://topuhit@bitbucket.org/topuhit/restapi.git
+git push -u origin master
+
+________________________________________________
 
 
-```json
+
+
+
+```javascript
    {
         "task": "Eat Jelly Beans",
         "status": "in progress"
