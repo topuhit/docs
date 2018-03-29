@@ -3,6 +3,13 @@ Some Useful templates.
 
 ## ON view port alert
 [Js fiddle Link](http://jsfiddle.net/4vtj6h1w/)
+
+need to use this plugin 
+
+author Remy Sharp
+url http://remysharp.com/2009/01/26/element-in-view-event-plugin/
+
+
 ~~~
 $(document).ready(function(){
     $('.myclass').bind('inview', function (event, visible) {
