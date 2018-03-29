@@ -2,20 +2,39 @@
 Some Useful templates.
 
 ## ON view port alert
-[Js fiddle line](http://jsfiddle.net/M2RzU/24/)
+[Js fiddle Link](http://jsfiddle.net/4vtj6h1w/)
 ~~~
 $(document).ready(function(){
     $('.myclass').bind('inview', function (event, visible) {
+       
       if (visible == true) {
         // element is now visible in the viewport
-       $("h2").removeClass('myclass');
-          alert('found h2!')
+        $(this).removeClass('myclass');
+         $(this).addClass('topu');
+          console.log( $(this).attr('class'));
       } else {
         // element has gone out of viewport
-         $("h2").addClass('myclass');
+         $(this).addClass('myclass');
+           console.log( $(this).attr('class'));
+            $(this).removeClass('topu');
+           alert()
       }
     });
+    $('.myclass').trigger('inview');
 });
+
+
+
+
+
+.topu {
+  font-size: 60px;
+  transition: font-size 2s;
+}
+
+
+
+
 ~~~
 ## Rest api Template that works: 
 
